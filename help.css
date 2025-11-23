@@ -1,0 +1,105 @@
+body {
+    background-color: #616161;
+}
+
+.help-container {
+    max-width: 800px;
+    margin: 120px auto 80px;
+    padding: 0 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+}
+
+.help-header {
+    text-align: center;
+    padding: 60px 0 40px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+}
+
+.help-header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.help-header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.policy-section {
+    margin-bottom: 60px;
+}
+
+.policy-section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 60px;
+}
+
+.policy-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+}
+
+.policy-section h3 {
+    font-size: 1.1rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.policy-section p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.policy-section ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: #555;
+}
+
+.policy-section ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.note-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-left: 4px solid #000;
+    margin: 20px 0;
+    font-style: italic;
+    color: #444;
+}
+
+.help-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #eee;
+    padding-bottom: 40px;
+}
+
+.help-footer a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .help-container {
+        margin-top: 100px;
+    }
+    .help-header h1 {
+        font-size: 2rem;
+    }
+}
