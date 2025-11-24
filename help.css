@@ -2,6 +2,11 @@ body {
     background-color: #616161;
 }
 
+.logo a {
+    text-decoration: none; 
+    color: inherit;        
+}
+
 .help-container {
     max-width: 800px;
     margin: 120px auto 80px;
@@ -103,3 +108,4 @@ body {
         font-size: 2rem;
     }
 }
+
