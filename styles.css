@@ -9,6 +9,10 @@ body {
     background-color: #cacbca;
     color: #333;
 }
+.logo a {
+    text-decoration: none; 
+    color: inherit;        
+}
 
 header {
     background-color: #ffffff;
@@ -293,3 +297,4 @@ footer {
     cursor: pointer;
 
 }
+
